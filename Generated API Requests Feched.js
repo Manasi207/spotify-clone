@@ -31,19 +31,19 @@ xhr.setRequestHeader("x-rapidapi-key", "81f6f3cd00mshed2fe9b292fe80fp18d6c2jsna5
 // xhr.send(data);
 
 
-const data = null;
+// const data = null;
 
-const xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
+// const xhr = new XMLHttpRequest();
+// xhr.withCredentials = true;
 
-xhr.addEventListener("readystatechange", function () {
-  if (this.readyState === this.DONE) {
-    console.log(this.responseText);
-  }
-});
+// xhr.addEventListener("readystatechange", function () {
+//   if (this.readyState === this.DONE) {
+//     console.log(this.responseText);
+//   }
+// });
 
-xhr.open("GET", "https://shazam-core.p.rapidapi.com/v2/artists/details?artist_id=136975");
-xhr.setRequestHeader("x-rapidapi-host", "shazam-core.p.rapidapi.com");
-xhr.setRequestHeader("x-rapidapi-key", "81f6f3cd00mshed2fe9b292fe80fp18d6c2jsna5bb62815862");
+// xhr.open("GET", "https://shazam-core.p.rapidapi.com/v2/artists/details?artist_id=136975");
+// xhr.setRequestHeader("x-rapidapi-host", "shazam-core.p.rapidapi.com");
+// xhr.setRequestHeader("x-rapidapi-key", "81f6f3cd00mshed2fe9b292fe80fp18d6c2jsna5bb62815862");
 
-xhr.send(data);
+// xhr.send(data);
